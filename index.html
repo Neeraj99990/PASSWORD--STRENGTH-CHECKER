@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="style.css"> 
+</head>
+<body>
+    <div class="container">
+        <h2>PASSWORD STRENGTH CHECKER</h2>
+        <div class="password-box">
+            <input type="password" id="password" placeholder="Enter your password">
+            <span class="show-password" onclick="togglePasswordVisibility()">
+                <i class="fa fa-eye"></i>
+            </span>
+            <div class="progress-bar">
+                <div class="progress" id="progress"></div>
+            </div>
+            <p id="strength-text">Password strength: good</p>
+        </div>
+    </div>
+    <script src="script.js"></script> 
+</body>
+</html>
